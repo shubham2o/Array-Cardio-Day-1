@@ -62,3 +62,24 @@ console.table([
     car2,
     car3
 ], ["model"]);
+
+
+// JavaScript - return
+// EXAMPLE 5
+console.log(`
+_____5._____
+`);
+
+function compare(value1, value2) {
+    if (value1 < value2) {
+        return -1;
+    } else if (value1 > value2) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+var values = [0, 6, 8, 5];
+values.sort(compare);
+console.table(values);
