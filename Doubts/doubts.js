@@ -83,3 +83,17 @@ function compare(value1, value2) {
 var values = [0, 6, 8, 5];
 values.sort(compare);
 console.table(values);
+
+
+// split() method 
+// EXAMPLE 6
+let text = "How are you doing today?"
+const myArray = text.split(" ");
+
+document.getElementById("demo").innerHTML = myArray;
+
+
+// EXAMPLE 7
+const myArray1 = text.split(" ", 3);
+
+document.getElementById("demo1").innerHTML = myArray1;
